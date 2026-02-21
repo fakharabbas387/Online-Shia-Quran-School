@@ -826,4 +826,30 @@ button:hover {
 
 
 }
+/* Default (Desktop) */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+width: 1200px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body {
+  overflow-x: hidden;
+}
 
