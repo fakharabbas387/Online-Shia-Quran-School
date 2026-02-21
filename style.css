@@ -44,6 +44,7 @@
            padding: 25px؛
 	  background-color : white; ;
            text-align: center;	
+	       tranzition:0.5s;
            	
  }
  .nav-links li a {
@@ -825,3 +826,4 @@ button:hover {
 
 
 }
+
