@@ -1,0 +1,125 @@
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background:#f4f7f9;
+    color:#333;
+}
+
+/* Header */
+.header{
+    background:linear-gradient(rgba(11,61,46,0.85), rgba(11,61,46,0.85)),
+    url('https://images.unsplash.com/photo-1542810634-71277d95dcbb');
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.header h1{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.header p{
+    font-size:18px;
+}
+
+/* Contact Section */
+.section{
+    padding:60px 10%;
+}
+
+.contact-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(320px,1fr));
+    gap:40px;
+}
+
+/* Contact Info */
+.contact-info{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-info h2{
+    margin-bottom:20px;
+    color:#0b3d2e;
+}
+
+.contact-info p{
+    margin-bottom:15px;
+}
+
+.contact-info strong{
+    color:#2a7f62;
+}
+
+/* Contact Form */
+.contact-form{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-form h2{
+    margin-bottom:20px;
+    color:#0b3d2e;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.contact-form textarea{
+    resize:none;
+    height:120px;
+}
+
+.contact-form button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#2a7f62;
+    color:#fff;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-form button:hover{
+    background:#0b3d2e;
+}
+
+/* Footer */
+footer{
+    background:#0b3d2e;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+    .header h1{
+        font-size:26px;
+    }
+}
+</style>
