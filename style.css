@@ -140,8 +140,10 @@
 
           background-size:cover ;
           position: left;
-          text-align: center;
-
+          text-align: center;   
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
 
 }
 
@@ -852,4 +854,5 @@ img {
 body {
   overflow-x: hidden;
 }
+
 
