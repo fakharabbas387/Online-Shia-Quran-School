@@ -133,6 +133,8 @@
           margin: 6px 0;
           font-size: 15px;
 }
+<meta name="description" content="Portfolio of Your Name, web developer specializing in HTML, CSS, and JavaScript.">
+	<meta name="viewport"conten="width=device-width,initial-scale=1.0">
 @media (max-width : 700px ){
 .banner{
           width: 100%;
@@ -855,6 +857,7 @@ img {
 body {
   overflow-x: hidden;
 }
+
 
 
 
